@@ -85,6 +85,10 @@ public class DynamicShipping implements java.io.Serializable
       this.appliedRules = appliedRules;
    }
 
+   public void applyDiscount(java.math.BigDecimal discount) {
+      this.discount.add(discount);
+   }
+
    public DynamicShipping(boolean eligibleFreeShipping, boolean eligibleDiscount,
          boolean eligibleOvercharge, java.math.BigDecimal discount,
          boolean freeShipping, java.util.List<java.lang.String> appliedRules)
