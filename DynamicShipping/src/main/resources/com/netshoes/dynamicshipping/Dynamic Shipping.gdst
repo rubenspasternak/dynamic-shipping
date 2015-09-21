@@ -1,6 +1,6 @@
 <decision-table52>
   <tableName>Dynamic Shipping</tableName>
-  <parentName>Categoria não eligível a promoção</parentName>
+  <parentName></parentName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
     <width>-1</width>
@@ -119,23 +119,7 @@
       </window>
     </Pattern52>
   </conditionPatterns>
-  <actionCols>
-    <insert-fact-column52>
-      <typedDefaultValue>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>-1</width>
-      <header>Free Shipping</header>
-      <factType>DynamicShipping</factType>
-      <boundName>dynamicShipping</boundName>
-      <factField>freeShipping</factField>
-      <type>Boolean</type>
-      <isInsertLogical>false</isInsertLogical>
-    </insert-fact-column52>
-  </actionCols>
+  <actionCols/>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -212,12 +196,6 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
     </list>
