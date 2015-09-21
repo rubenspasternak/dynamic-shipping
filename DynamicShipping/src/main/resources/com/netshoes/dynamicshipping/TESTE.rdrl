@@ -1,9 +1,0 @@
-package com.netshoes.dynamicshipping;
-
-import java.lang.Number;
-
-rule "TESTE"
-	dialect "mvel"
-	when
-	then
-end
