@@ -6,7 +6,7 @@ salience 10
 		$result : DynamicShipping(eligibleFreeShipping == true)
 		$order : Order()
 		$item : Product() from $order.products
-		//SkuList(skuList contains $item.getSkuCode())
+		SkuList(skuList contains $item.getSkuCode())
 	then
 		System.out.println("SKU não eligível a promoções de frete: " + $item.getSkuCode());
 		modify($result) {
