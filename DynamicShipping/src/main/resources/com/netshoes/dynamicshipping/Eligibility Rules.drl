@@ -22,7 +22,7 @@ salience 10
 		$result : DynamicShipping(eligibleFreeShipping == true)
 		$order : Order()
 		$item : Product() from $order.products
-		//CategoryList(categoryList contains $item.getCategoryCode())
+		CategoryList(categoryList contains $item.getCategoryCode())
 	then
 		System.out.println("Categoria não eligível a promoção: " + $item.getCategoryCode());
 		modify($result) {
