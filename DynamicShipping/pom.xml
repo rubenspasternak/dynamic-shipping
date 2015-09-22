@@ -19,7 +19,7 @@
   </build>
 <distributionManagement>
 <repository>
-<id>netshoesNexusRelease</id>
+<id>releases</id>
 <url>http://nexus.netshoes.net:8080/nexus/content/groups/developer</url>
 </repository>
 </distributionManagement>
