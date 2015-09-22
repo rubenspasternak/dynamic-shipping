@@ -17,4 +17,10 @@
       </plugin>
     </plugins>
   </build>
+<distributionManagement>
+<repository>
+<id>bpmassets</id>
+<url>http://nexus.netshoes.net:8080/nexus/content/groups/developer</url>
+</repository>
+</distributionManagement>
 </project>
