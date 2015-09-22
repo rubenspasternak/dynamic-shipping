@@ -8,19 +8,16 @@
   <name>DynamicShipping</name>
   <description>Dynamic Shipping</description>
 
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <url>http://nexus.netshoes.net:8080/nexus/content/groups/developer/</url>
-    </repository>
-  </distributionManagement>
-  <repositories>
-    <repository>
-      <id>guvnor-m2-repo</id>
-      <name>Guvnor M2 Repo</name>
-      <url>http://dolnxprodvm916:8480/jbpm-console/maven2/</url>
-    </repository>
-  </repositories>
+<distributionManagement>
+  <repository>
+     <id>releases</id>
+     <url>http://nexus.netshoes.net:8080/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>snapshots</id>
+     <url>http://nexus.netshoes.net:8080/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
