@@ -7,6 +7,21 @@
   <version>1.0</version>
   <name>DynamicShipping</name>
   <description>Dynamic Shipping</description>
+
+  <distributionManagement>
+    <repository>
+      <id>jbpmprod</id>
+      <url>http://server-in-company:9001/nexus/content/repositories/jbpmprod/</url>
+    </repository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>guvnor-m2-repo</id>
+      <name>Guvnor M2 Repo</name>
+      <url>http://dolnxprodvm916:8480/jbpm-console/maven2/</url>
+    </repository>
+  </repositories>
+
   <build>
     <plugins>
       <plugin>
@@ -17,10 +32,4 @@
       </plugin>
     </plugins>
   </build>
-<distributionManagement>
-<repository>
-<id>nexus</id>
-<url>http://nexus.netshoes.net:8080/nexus/content/groups/developer</url>
-</repository>
-</distributionManagement>
 </project>
