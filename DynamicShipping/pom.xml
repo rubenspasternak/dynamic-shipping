@@ -19,10 +19,8 @@
   </build>
 <distributionManagement>
 <repository>
-<id>releases</id>
+<id>nexus</id>
 <url>http://nexus.netshoes.net:8080/nexus/content/groups/developer</url>
-      <username>admin</username>
-      <password>Senha1234</password>
 </repository>
 </distributionManagement>
 </project>
