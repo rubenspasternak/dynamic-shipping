@@ -5,5 +5,14 @@ import java.lang.Number;
 rule "Guided Rule"
 	dialect "mvel"
 	when
+		$result : DynamicShipping( eligibleFreeShipping == true )
+		$order : Order( )
+		$item : Product( ) from $order.products
+		CategoryList(categoryList contains $item.getCategoryCode())
 	then
+		modify( $result ) {
+				setEligibleFreeShipping( false ), 
+				setEligibleDiscount( true ), 
+				setEligibleOvercharge( true )
+		}
 end
