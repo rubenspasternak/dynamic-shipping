@@ -1,0 +1,9 @@
+package com.netshoes.dynamicshipping;
+
+import java.lang.Number;
+
+rule "Guided Rule"
+	dialect "mvel"
+	when
+	then
+end
