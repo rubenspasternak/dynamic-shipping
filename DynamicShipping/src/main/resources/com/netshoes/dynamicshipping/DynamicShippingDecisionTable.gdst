@@ -191,7 +191,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Discount</header>
+      <header>Discount (%)</header>
       <boundName>dynamicShipping</boundName>
       <factField>discount</factField>
       <type>BigDecimal</type>
@@ -205,7 +205,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Overcharge</header>
+      <header>Overcharge (%)</header>
       <boundName>dynamicShipping</boundName>
       <factField>discount</factField>
       <type>BigDecimal</type>
@@ -451,7 +451,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric>2</valueNumeric>
+        <valueNumeric>5</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
