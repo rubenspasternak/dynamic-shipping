@@ -17,7 +17,7 @@ public class DynamicShipping implements java.io.Serializable
 
    private java.math.BigDecimal discount;
 
-   private boolean freeShipping;
+   private Boolean freeShipping;
 
    private java.util.List<java.lang.String> appliedRules;
 
@@ -65,16 +65,6 @@ public class DynamicShipping implements java.io.Serializable
       this.discount = discount;
    }
 
-   public boolean isFreeShipping()
-   {
-      return this.freeShipping;
-   }
-
-   public void setFreeShipping(boolean freeShipping)
-   {
-      this.freeShipping = freeShipping;
-   }
-
    public java.util.List<java.lang.String> getAppliedRules()
    {
       return this.appliedRules;
@@ -85,13 +75,25 @@ public class DynamicShipping implements java.io.Serializable
       this.appliedRules = appliedRules;
    }
 
-   public void applyDiscount(java.math.BigDecimal discount) {
+   public void applyDiscount(java.math.BigDecimal discount)
+   {
       this.discount.add(discount);
+   }
+
+   public java.lang.Boolean getFreeShipping()
+   {
+      return this.freeShipping;
+   }
+
+   public void setFreeShipping(java.lang.Boolean freeShipping)
+   {
+      this.freeShipping = freeShipping;
    }
 
    public DynamicShipping(boolean eligibleFreeShipping, boolean eligibleDiscount,
          boolean eligibleOvercharge, java.math.BigDecimal discount,
-         boolean freeShipping, java.util.List<java.lang.String> appliedRules)
+         java.lang.Boolean freeShipping,
+         java.util.List<java.lang.String> appliedRules)
    {
       this.eligibleFreeShipping = eligibleFreeShipping;
       this.eligibleDiscount = eligibleDiscount;
