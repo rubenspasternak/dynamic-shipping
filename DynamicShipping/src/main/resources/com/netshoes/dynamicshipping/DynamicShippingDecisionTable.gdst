@@ -146,7 +146,6 @@
       <conditions>
         <condition-column52>
           <typedDefaultValue>
-            <valueBoolean>false</valueBoolean>
             <valueString></valueString>
             <dataType>BOOLEAN</dataType>
             <isOtherwise>false</isOtherwise>
@@ -159,6 +158,7 @@
           <fieldType>Boolean</fieldType>
           <operator>==</operator>
           <parameters/>
+          <binding></binding>
         </condition-column52>
       </conditions>
       <window>
