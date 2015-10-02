@@ -66,7 +66,7 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>STRING</dataType>
+            <dataType>NUMERIC_BIGDECIMAL</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
@@ -75,7 +75,7 @@
           <constraintValueType>1</constraintValueType>
           <factField>subtotal</factField>
           <fieldType>BigDecimal</fieldType>
-          <operator>&lt;=</operator>
+          <operator>&lt;</operator>
           <parameters/>
         </condition-column52>
       </conditions>
@@ -469,7 +469,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Frete Gratis (subtotal)</valueString>
+        <valueString>Desconto Frete (100 a 150)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -485,6 +485,152 @@
       </value>
       <value>
         <valueNumeric>100</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>150</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>25</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Desconto Frete (150 a 200)</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Netshoes_BR</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>150</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>200</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueBoolean>false</valueBoolean>
+        <valueString></valueString>
+        <dataType>BOOLEAN</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>50</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_BIGDECIMAL</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">6</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Frete Gratis (acima 200)</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Netshoes_BR</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric>200</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -534,7 +680,7 @@
     </list>
     <list>
       <value>
-        <valueNumeric class="int">5</valueNumeric>
+        <valueNumeric class="int">7</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
