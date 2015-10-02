@@ -78,6 +78,22 @@
       <conditions>
         <condition-column52>
           <typedDefaultValue>
+            <valueString>L_NETSHOES</valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>-1</width>
+          <header>Store</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>storeCode</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <valueList>L_NETSHOES,L_ZATTINI,L_SHOPTIMAO</valueList>
+          <parameters/>
+        </condition-column52>
+        <condition-column52>
+          <typedDefaultValue>
             <valueString></valueString>
             <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
@@ -228,6 +244,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>L_NETSHOES</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -279,6 +300,11 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>L_NETSHOES</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -339,6 +365,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>L_NETSHOES</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -390,6 +421,11 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>L_NETSHOES</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -449,6 +485,11 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>L_NETSHOES</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
         <valueString></valueString>
         <dataType>NUMERIC_BIGDECIMAL</dataType>
         <isOtherwise>false</isOtherwise>
@@ -500,6 +541,11 @@
       <value>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>L_NETSHOES</valueString>
+        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
