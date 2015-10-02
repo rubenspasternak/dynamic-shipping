@@ -469,7 +469,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Frete Gratis</valueString>
+        <valueString>Frete Gratis (subtotal)</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
