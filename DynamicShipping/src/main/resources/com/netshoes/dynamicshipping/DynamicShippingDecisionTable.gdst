@@ -19,7 +19,7 @@
       <conditions>
         <condition-column52>
           <typedDefaultValue>
-            <valueString>L_NETSHOES</valueString>
+            <valueString>Netshoes_BR</valueString>
             <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
@@ -30,7 +30,7 @@
           <factField>storeCode</factField>
           <fieldType>String</fieldType>
           <operator>==</operator>
-          <valueList>L_NETSHOES,L_ZATTINI,L_SHOPTIMAO</valueList>
+          <valueList>Netshoes_BR,Zattini,Netshoes_AR</valueList>
           <parameters/>
         </condition-column52>
         <condition-column52>
@@ -258,7 +258,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>L_NETSHOES</valueString>
+        <valueString>Netshoes_BR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -328,7 +328,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>L_NETSHOES</valueString>
+        <valueString>Netshoes_BR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -398,7 +398,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>L_NETSHOES</valueString>
+        <valueString>Netshoes_BR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -470,7 +470,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>L_NETSHOES</valueString>
+        <valueString>Netshoes_BR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -541,7 +541,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>L_NETSHOES</valueString>
+        <valueString>Netshoes_BR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -610,7 +610,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>L_NETSHOES</valueString>
+        <valueString>Netshoes_BR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
